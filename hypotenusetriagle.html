@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <scrpit src="/index.js"></scrpit>
+    <header>
+        <span class = "brand">
+            fun with triangles</span>
+        <list class = "nav">
+            <ul>
+                <li>
+                    is triangle?
+                </li>
+                <li>
+                    calculate area
+                </li>
+                <li>
+                    hypotenuse calculator
+                </li>
+                <li>
+                    quiz?
+                </li>
+            </ul>
+        </list>
+    </header>
+
+    <label for="side-one">side1:</label>
+    <input type="number" class="hypotenuse-inputs" id="side-one">
+    
+    <label for="side-two">side:</label>
+    <input type="number" class="hypotenuse-inputs" id="side-two">
+
+    <button id="calculate-hypotenuse-btn">calculate area</button>
+
+    <div id="hypotenuse-output">hypotenuse will appear here</div>
+
+    <script src="/hypotenuse.js"></script>
 </body>
 </html>

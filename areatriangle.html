@@ -8,6 +8,37 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <scrpit src="/index.js"></scrpit>
+    <header>
+        <span class = "brand">
+            fun with triangles</span>
+        <list class = "nav">
+            <ul>
+                <li>
+                    is triangle?
+                </li>
+                <li>
+                    calculate area
+                </li>
+                <li>
+                    hypotenuse calculator
+                </li>
+                <li>
+                    quiz?
+                </li>
+            </ul>
+        </list>
+    </header>
+
+    <label for="height">height:</label>
+    <input type="number" class="area-input" id="height">
+    
+    <label for="base">base:</label>
+    <input type="number" class="area-input" id="base">
+
+    <button id="calculate-area-btn">calculate area</button>
+
+    <div id="area-output">answer will appear here</div>
+
+    <script src="/area.js"></script>
 </body>
 </html>
