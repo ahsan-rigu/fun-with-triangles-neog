@@ -9,8 +9,6 @@
 </head>
 <body>
     <header>
-        <span class = "brand">
-            fun with triangles</span>
         <list class = "nav">
             <ul>
                 <li>
@@ -28,19 +26,21 @@
             </ul>
         </list>
     </header>
-    <label for="angle-one">angle1</label>
+
+    <div class="calculator-container">
+    <label for="angle-one">angle one:</label>
     <input type="number" class="angle-input" id="angle-one">
     
-    <label for="angl-two">angle2</label>
+    <label for="angl-two">angle two:</label>
     <input type="number" class="angle-input" id="angle-two">
 
-    <label for="angle-three">angle3</label>
+    <label for="angle-three">angle three:</label>
     <input type="number" class="angle-input" id="angle-three">
     
     <button id="is-triangle-btn" calss="button">is triangle?</button>
 
-    <div id="is-triangle-output">answer will appear here</div>
-
+    <div id="is-triangle-output" class="output-box">answer will appear here</div>
+    </div>
     <script type="text/javascript" src="/index.js"></script>
 </body>
 </html>

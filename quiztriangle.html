@@ -7,7 +7,49 @@
     <title>traiangle quiz</title>
     <link rel="stylesheet" href="/styles.css">
 </head>
+    <header>
+        <list class = "nav">
+            <ul>
+                <li>
+                    is triangle?
+                </li>
+                <li>
+                    calculate area
+                </li>
+                <li>
+                    hypotenuse calculator
+                </li>
+                <li>
+                    quiz?
+                </li>
+            </ul>
+        </list>
+    </header>
+    <div class="calculator-container">
+        <form>
+            <div class="question-container">
+                <p>1. Which of the following triangles have the same side lengths?</p>
+                <label><input type="radio" name="options-one" value="answervalue">a.) Scalene.</label>
+                <label><input type="radio" name="options-one" value="answervalue">b.) Isoceless.</label>
+                <label><input type="radio" name="options-one" value="answervalue">c.) Equilateral.</label>
+            </div>
+            <div class="question-container">
+                <p>2. If a triangle has two equal sides then what is it called?</p>
+                <label><input type="radio" name="options-one" value="answervalue">a.) Equilateral</label>
+                <label><input type="radio" name="options-one" value="answervalue">b.) Isoceless</label>
+                <label><input type="radio" name="options-one" value="answervalue">Scalene</label>
+            </div>
+            <div class="question-container">
+                <p>If a triangle has two angles measuring 45 degrees than its a...</p>
+                <label><input type="radio" name="options-one" value="answervalue">a.)Right-angled triangle.</label>
+                <label><input type="radio" name="options-one" value="answervalue">b.) Isoceless triangle.</label>
+                <label><input type="radio" name="options-one" value="answervalue">c.)  Both a. and b.</label>
+            </div>
+        </form>
+        <button>check my answers</button>
+        <div class="output-box">Your results will appear here</div>
+    </div>
 <body>
-    <scrpit src="/index.js"></scrpit>
+    <scrpit src="/quiz.js"></scrpit>
 </body>
 </html>
