@@ -2,7 +2,7 @@ const quizForm = document.querySelector("#quizForm");
 const checkAnswerButton = document.querySelector("#check-answers");
 const outputBox = document.querySelector(".output-box");
 
-correctAnswers = ["Equillateral", "Isoceless", "Both a. and b."]
+correctAnswers = ["Equillateral", "Isoceless", "Both a. and b.", "180","Similar Triangles", "Both a. and b."]
 
 checkAnswerButton.addEventListener("click" , checkAnswers);
 
