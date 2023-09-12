@@ -31,6 +31,12 @@ header{
     margin: .5rem;
 }
 
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 input{
     display: block;
     margin: auto;
